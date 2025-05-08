@@ -13,8 +13,8 @@
 # ----------------------------------------
 # Environment variables and secrets (always ignore)
 # ----------------------------------------
-.env
-.env.*
+.venv
+.venv.*
 
 # ----------------------------------------
 # Python (ignore for all Python projects)
