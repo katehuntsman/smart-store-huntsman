@@ -100,3 +100,42 @@ dtype: int64
 2025-05-09 18:41:39.476 | INFO     | __main__:main:132 - ==================================
 2025-05-09 18:41:39.476 | INFO     | __main__:main:133 - FINISHED prepare_sales_data.py
 2025-05-09 18:41:39.476 | INFO     | __main__:main:134 - ==================================
+2025-05-09 18:48:17.299 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-05-09 18:48:17.300 | INFO     | __main__:main:89 - ==================================
+2025-05-09 18:48:17.300 | INFO     | __main__:main:90 - STARTING prepare_sales_data.py
+2025-05-09 18:48:17.300 | INFO     | __main__:main:91 - ==================================
+2025-05-09 18:48:17.300 | INFO     | __main__:main:93 - Root         : /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman
+2025-05-09 18:48:17.300 | INFO     | __main__:main:94 - data/raw     : /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/data/raw
+2025-05-09 18:48:17.300 | INFO     | __main__:main:95 - data/prepared: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/data/prepared
+2025-05-09 18:48:17.300 | INFO     | __main__:main:96 - scripts      : /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/scripts
+2025-05-09 18:48:17.300 | INFO     | __main__:read_raw_data:66 - FUNCTION START: read_raw_data with file_name=sales_data.csv
+2025-05-09 18:48:17.300 | INFO     | __main__:read_raw_data:68 - Reading data from /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/data/raw/sales_data.csv
+2025-05-09 18:48:17.308 | INFO     | __main__:read_raw_data:70 - Loaded dataframe with 2001 rows and 9 columns
+2025-05-09 18:48:17.308 | INFO     | __main__:main:108 - Initial dataframe columns: TransactionID, SaleDate, CustomerID, ProductID, StoreID, CampaignID, SaleAmount, DiscountPercent, PaymentType
+2025-05-09 18:48:17.308 | INFO     | __main__:main:109 - Initial dataframe shape: (2001, 9)
+2025-05-09 18:48:17.308 | INFO     | __main__:main:129 - ==================================
+2025-05-09 18:48:17.308 | INFO     | __main__:main:130 - Original shape: (2001, 9)
+2025-05-09 18:48:17.308 | INFO     | __main__:main:131 - Cleaned shape:  (2001, 9)
+2025-05-09 18:48:17.308 | INFO     | __main__:main:132 - ==================================
+2025-05-09 18:48:17.308 | INFO     | __main__:main:133 - FINISHED prepare_sales_data.py
+2025-05-09 18:48:17.308 | INFO     | __main__:main:134 - ==================================
+2025-05-09 18:59:33.649 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-05-09 18:59:33.650 | INFO     | __main__:main:89 - ==================================
+2025-05-09 18:59:33.650 | INFO     | __main__:main:90 - STARTING prepare_sales_data.py
+2025-05-09 18:59:33.650 | INFO     | __main__:main:91 - ==================================
+2025-05-09 18:59:33.650 | INFO     | __main__:main:93 - Root         : /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman
+2025-05-09 18:59:33.650 | INFO     | __main__:main:94 - data/raw     : /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/data/raw
+2025-05-09 18:59:33.650 | INFO     | __main__:main:95 - data/prepared: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/data/prepared
+2025-05-09 18:59:33.650 | INFO     | __main__:main:96 - scripts      : /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/scripts
+2025-05-09 18:59:33.650 | INFO     | __main__:read_raw_data:66 - FUNCTION START: read_raw_data with file_name=sales_data.csv
+2025-05-09 18:59:33.650 | INFO     | __main__:read_raw_data:68 - Reading data from /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/data/raw/sales_data.csv
+2025-05-09 18:59:33.654 | INFO     | __main__:read_raw_data:70 - Loaded dataframe with 2001 rows and 9 columns
+2025-05-09 18:59:33.654 | INFO     | __main__:main:108 - Initial dataframe columns: TransactionID, SaleDate, CustomerID, ProductID, StoreID, CampaignID, SaleAmount, DiscountPercent, PaymentType
+2025-05-09 18:59:33.654 | INFO     | __main__:main:109 - Initial dataframe shape: (2001, 9)
+2025-05-09 18:59:33.659 | INFO     | __main__:main:131 - Saved cleaned data to: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/data/prepared/sales_prepared.csv
+2025-05-09 18:59:33.659 | INFO     | __main__:main:133 - ==================================
+2025-05-09 18:59:33.659 | INFO     | __main__:main:134 - Original shape: (2001, 9)
+2025-05-09 18:59:33.659 | INFO     | __main__:main:135 - Cleaned shape:  (2001, 9)
+2025-05-09 18:59:33.659 | INFO     | __main__:main:136 - ==================================
+2025-05-09 18:59:33.659 | INFO     | __main__:main:137 - FINISHED prepare_sales_data.py
+2025-05-09 18:59:33.659 | INFO     | __main__:main:138 - ==================================

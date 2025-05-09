@@ -125,7 +125,11 @@ def main() -> None:
 
     # TODO:Save prepared data
     
-
+    # Save prepared data
+    output_path = PREPARED_DATA_DIR / output_file
+    df.to_csv(output_path, index=False)
+    logger.info(f"Saved cleaned data to: {output_path}")
+    
     logger.info("==================================")
     logger.info(f"Original shape: {df.shape}")
     logger.info(f"Cleaned shape:  {original_shape}")
