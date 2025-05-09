@@ -40,7 +40,7 @@ git push
 ## Running Scripts 
 ```
 source .venv/bin/activate
-python3 scripts/data_preparation/prepare_customers.py
-python3 scripts/data_preparation/prepare_products.py
-python3 scripts/data_preparation/prepare_sales.py
+/opt/anaconda3/bin/python3 scripts/data_preparation/prepare_customers.py
+/opt/anaconda3/bin/python3 scripts/data_preparation/prepare_products.py 
+/opt/anaconda3/bin/python3 scripts/data_preparation/prepare_sales.py 
 ```
