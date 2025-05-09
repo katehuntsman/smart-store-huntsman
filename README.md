@@ -17,9 +17,10 @@ smart-store-huntsman/
        └──sales_data.csv                    
 │
 ├── scripts/   
-    └──prepare_customer.py
-    └──prepare_products.py
-    └──prepare_sales.py
+    ├──data_preparation/
+        └──prepare_customer.py
+        └──prepare_products.py
+        └──prepare_sales.py
                         
 │
 ├── utils/                     
@@ -35,4 +36,11 @@ smart-store-huntsman/
 git add .
 git commit -m "add message"
 git push
+```
+## Running Scripts 
+```
+source .venv/bin/activate
+python3 scripts/data_preparation/prepare_customers.py
+python3 scripts/data_preparation/prepare_products.py
+python3 scripts/data_preparation/prepare_sales.py
 ```
