@@ -12,12 +12,15 @@ smart-store-huntsman/
 │
 ├── data/                
 │   ├── raw/   
-       └──ustomers_data.csv
+       └──customers_data.csv
        └──products_data.csv
        └──sales_data.csv                    
 │
 ├── scripts/   
-    └──data_prep.py                         
+    └──prepare_customer.py
+    └──prepare_products.py
+    └──prepare_sales.py
+                        
 │
 ├── utils/                     
 │   └── logger.py             
