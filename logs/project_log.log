@@ -139,3 +139,32 @@ dtype: int64
 2025-05-09 18:59:33.659 | INFO     | __main__:main:136 - ==================================
 2025-05-09 18:59:33.659 | INFO     | __main__:main:137 - FINISHED prepare_sales_data.py
 2025-05-09 18:59:33.659 | INFO     | __main__:main:138 - ==================================
+2025-05-19 11:31:13.624 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-05-19 11:31:13.625 | INFO     | __main__:main:171 - ==================================
+2025-05-19 11:31:13.625 | INFO     | __main__:main:172 - STARTING prepare_customers_data.py
+2025-05-19 11:31:13.625 | INFO     | __main__:main:173 - ==================================
+2025-05-19 11:31:13.625 | INFO     | __main__:main:175 - Root         : /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman
+2025-05-19 11:31:13.625 | INFO     | __main__:main:176 - data/raw     : /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/data/raw
+2025-05-19 11:31:13.625 | INFO     | __main__:main:177 - data/prepared: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/data/prepared
+2025-05-19 11:31:13.625 | INFO     | __main__:main:178 - scripts      : /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/scripts
+2025-05-19 11:31:13.625 | INFO     | __main__:read_raw_data:58 - READING: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/data/raw/customers_data.csv.
+2025-05-19 11:31:13.639 | INFO     | __main__:main:190 - Initial dataframe columns: CustomerID, Name, Region, JoinDate, LoyaltyPoints, CustomerSegment
+2025-05-19 11:31:13.639 | INFO     | __main__:main:191 - Initial dataframe shape: (201, 6)
+2025-05-19 11:31:13.640 | INFO     | __main__:remove_duplicates:94 - FUNCTION START: remove_duplicates with dataframe shape=(201, 6)
+2025-05-19 11:31:13.640 | INFO     | __main__:remove_duplicates:105 - Original dataframe shape: (201, 6)
+2025-05-19 11:31:13.640 | INFO     | __main__:remove_duplicates:106 - Deduped  dataframe shape: (201, 6)
+2025-05-19 11:31:13.640 | INFO     | __main__:handle_missing_values:122 - FUNCTION START: handle_missing_values with dataframe shape=(201, 6)
+2025-05-19 11:31:13.641 | INFO     | __main__:handle_missing_values:126 - Total missing values before handling: 0
+2025-05-19 11:31:13.641 | INFO     | __main__:handle_missing_values:135 - Total missing values after handling: 0
+2025-05-19 11:31:13.641 | INFO     | __main__:handle_missing_values:136 - 201 records remaining after handling missing values.
+2025-05-19 11:31:13.641 | INFO     | __main__:remove_outliers:150 - FUNCTION START: remove_outliers with dataframe shape=(201, 6)
+2025-05-19 11:31:13.641 | INFO     | __main__:remove_outliers:158 - Removed 0 outlier rows
+2025-05-19 11:31:13.641 | INFO     | __main__:remove_outliers:159 - 201 records remaining after removing outliers.
+2025-05-19 11:31:13.641 | INFO     | __main__:save_prepared_data:76 - FUNCTION START: save_prepared_data with file_name=customers_prepared.csv, dataframe shape=(201, 6)
+2025-05-19 11:31:13.643 | INFO     | __main__:save_prepared_data:79 - Data saved to /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/data/prepared/customers_prepared.csv
+2025-05-19 11:31:13.643 | INFO     | __main__:main:214 - ==================================
+2025-05-19 11:31:13.643 | INFO     | __main__:main:215 - Original shape: (201, 6)
+2025-05-19 11:31:13.643 | INFO     | __main__:main:216 - Cleaned shape:  (201, 6)
+2025-05-19 11:31:13.643 | INFO     | __main__:main:217 - ==================================
+2025-05-19 11:31:13.643 | INFO     | __main__:main:218 - FINISHED prepare_customers_data.py
+2025-05-19 11:31:13.643 | INFO     | __main__:main:219 - ==================================
