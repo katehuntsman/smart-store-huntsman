@@ -168,3 +168,581 @@ dtype: int64
 2025-05-19 11:31:13.643 | INFO     | __main__:main:217 - ==================================
 2025-05-19 11:31:13.643 | INFO     | __main__:main:218 - FINISHED prepare_customers_data.py
 2025-05-19 11:31:13.643 | INFO     | __main__:main:219 - ==================================
+2025-05-19 21:51:30.235 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-05-19 21:51:30.235 | INFO     | __main__:load_data_to_dw:28 - ETL STARTED: Loading prepared data into data warehouse.
+2025-05-19 21:51:30.235 | ERROR    | __main__:load_data_to_dw:32 - Data warehouse not found at /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/dw/smart_sales.sqlite. Run create_dw_sqlite.py first.
+2025-05-19 21:53:56.935 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-05-19 21:53:56.935 | INFO     | __main__:main:142 - ========================================
+2025-05-19 21:53:56.935 | INFO     | __main__:main:143 - Starting: create_dw_sqlite.py
+2025-05-19 21:53:56.935 | INFO     | __main__:main:144 - ========================================
+2025-05-19 21:53:56.935 | INFO     | __main__:main:145 - Root:   /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman
+2025-05-19 21:53:56.935 | INFO     | __main__:main:146 - Scripts:/Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/scripts/dw_create
+2025-05-19 21:53:56.935 | INFO     | __main__:main:147 - SQL:    /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create
+2025-05-19 21:53:56.935 | INFO     | __main__:main:148 - Input:  /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/data/prepared
+2025-05-19 21:53:56.935 | INFO     | __main__:main:149 - Output: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/dw/smart_sales.sqlite
+2025-05-19 21:53:56.935 | INFO     | __main__:create_dw:59 - Creating data warehouse using SQLite...
+2025-05-19 21:53:56.937 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/00_drop_all_tables.sql
+2025-05-19 21:53:56.938 | ERROR    | __main__:run_sql_file:55 - Error running 00_drop_all_tables.sql: [Errno 2] No such file or directory: '/Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/00_drop_all_tables.sql'
+2025-05-19 21:53:56.938 | ERROR    | __main__:create_dw:81 - Unexpected error: [Errno 2] No such file or directory: '/Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/00_drop_all_tables.sql'
+2025-05-19 21:55:37.692 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-05-19 21:55:37.692 | INFO     | __main__:main:142 - ========================================
+2025-05-19 21:55:37.692 | INFO     | __main__:main:143 - Starting: create_dw_sqlite.py
+2025-05-19 21:55:37.692 | INFO     | __main__:main:144 - ========================================
+2025-05-19 21:55:37.693 | INFO     | __main__:main:145 - Root:   /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman
+2025-05-19 21:55:37.693 | INFO     | __main__:main:146 - Scripts:/Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/scripts/dw_create
+2025-05-19 21:55:37.693 | INFO     | __main__:main:147 - SQL:    /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create
+2025-05-19 21:55:37.693 | INFO     | __main__:main:148 - Input:  /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/data/prepared
+2025-05-19 21:55:37.693 | INFO     | __main__:main:149 - Output: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/dw/smart_sales.sqlite
+2025-05-19 21:55:37.693 | INFO     | __main__:create_dw:59 - Creating data warehouse using SQLite...
+2025-05-19 21:55:37.695 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/00_drop_all_tables.sql
+2025-05-19 21:55:37.695 | ERROR    | __main__:run_sql_file:55 - Error running 00_drop_all_tables.sql: [Errno 2] No such file or directory: '/Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/00_drop_all_tables.sql'
+2025-05-19 21:55:37.695 | ERROR    | __main__:create_dw:81 - Unexpected error: [Errno 2] No such file or directory: '/Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/00_drop_all_tables.sql'
+2025-05-19 21:56:14.489 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-05-19 21:56:14.489 | INFO     | __main__:main:142 - ========================================
+2025-05-19 21:56:14.489 | INFO     | __main__:main:143 - Starting: create_dw_sqlite.py
+2025-05-19 21:56:14.489 | INFO     | __main__:main:144 - ========================================
+2025-05-19 21:56:14.489 | INFO     | __main__:main:145 - Root:   /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman
+2025-05-19 21:56:14.489 | INFO     | __main__:main:146 - Scripts:/Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/scripts/dw_create
+2025-05-19 21:56:14.489 | INFO     | __main__:main:147 - SQL:    /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create
+2025-05-19 21:56:14.489 | INFO     | __main__:main:148 - Input:  /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/data/prepared
+2025-05-19 21:56:14.489 | INFO     | __main__:main:149 - Output: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/dw/smart_sales.sqlite
+2025-05-19 21:56:14.489 | INFO     | __main__:create_dw:59 - Creating data warehouse using SQLite...
+2025-05-19 21:56:14.491 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/00_drop_all_tables.sql
+2025-05-19 21:56:14.492 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/10_create_customers.sql
+2025-05-19 21:56:14.492 | ERROR    | __main__:run_sql_file:55 - Error running 10_create_customers.sql: [Errno 2] No such file or directory: '/Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/10_create_customers.sql'
+2025-05-19 21:56:14.492 | ERROR    | __main__:create_dw:81 - Unexpected error: [Errno 2] No such file or directory: '/Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/10_create_customers.sql'
+2025-05-19 21:58:23.901 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-05-19 21:58:23.901 | INFO     | __main__:main:142 - ========================================
+2025-05-19 21:58:23.901 | INFO     | __main__:main:143 - Starting: create_dw_sqlite.py
+2025-05-19 21:58:23.902 | INFO     | __main__:main:144 - ========================================
+2025-05-19 21:58:23.902 | INFO     | __main__:main:145 - Root:   /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman
+2025-05-19 21:58:23.902 | INFO     | __main__:main:146 - Scripts:/Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/scripts/dw_create
+2025-05-19 21:58:23.902 | INFO     | __main__:main:147 - SQL:    /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create
+2025-05-19 21:58:23.902 | INFO     | __main__:main:148 - Input:  /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/data/prepared
+2025-05-19 21:58:23.902 | INFO     | __main__:main:149 - Output: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/dw/smart_sales.sqlite
+2025-05-19 21:58:23.902 | INFO     | __main__:create_dw:59 - Creating data warehouse using SQLite...
+2025-05-19 21:58:23.904 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/00_drop_all_tables.sql
+2025-05-19 21:58:23.904 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/10_create_customers.sql
+2025-05-19 21:58:23.904 | ERROR    | __main__:run_sql_file:55 - Error running 10_create_customers.sql: [Errno 2] No such file or directory: '/Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/10_create_customers.sql'
+2025-05-19 21:58:23.904 | ERROR    | __main__:create_dw:81 - Unexpected error: [Errno 2] No such file or directory: '/Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/10_create_customers.sql'
+2025-05-19 22:01:22.128 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-05-19 22:01:22.128 | INFO     | __main__:main:142 - ========================================
+2025-05-19 22:01:22.128 | INFO     | __main__:main:143 - Starting: create_dw_sqlite.py
+2025-05-19 22:01:22.128 | INFO     | __main__:main:144 - ========================================
+2025-05-19 22:01:22.128 | INFO     | __main__:main:145 - Root:   /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman
+2025-05-19 22:01:22.128 | INFO     | __main__:main:146 - Scripts:/Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/scripts/dw_create
+2025-05-19 22:01:22.128 | INFO     | __main__:main:147 - SQL:    /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create
+2025-05-19 22:01:22.128 | INFO     | __main__:main:148 - Input:  /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/data/prepared
+2025-05-19 22:01:22.128 | INFO     | __main__:main:149 - Output: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/dw/smart_sales.sqlite
+2025-05-19 22:01:22.128 | INFO     | __main__:create_dw:59 - Creating data warehouse using SQLite...
+2025-05-19 22:01:22.130 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/00_drop_all_tables.sql
+2025-05-19 22:01:22.131 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/10_create_customers.sql
+2025-05-19 22:01:22.131 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/20_create_products.sql
+2025-05-19 22:01:22.132 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/90_create_sales.sql
+2025-05-19 22:01:22.132 | INFO     | __main__:create_dw:75 - Data warehouse schema created successfully.
+2025-05-19 22:01:22.132 | INFO     | __main__:populate_dw:88 - Populating SQLite data warehouse from prepared CSVs...
+2025-05-19 22:01:22.140 | ERROR    | __main__:populate_dw:135 - Error populating SQLite data warehouse: table customers has no column named LoyaltyPoints
+2025-05-19 22:02:06.953 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-05-19 22:02:06.954 | INFO     | __main__:main:142 - ========================================
+2025-05-19 22:02:06.954 | INFO     | __main__:main:143 - Starting: create_dw_sqlite.py
+2025-05-19 22:02:06.954 | INFO     | __main__:main:144 - ========================================
+2025-05-19 22:02:06.954 | INFO     | __main__:main:145 - Root:   /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman
+2025-05-19 22:02:06.954 | INFO     | __main__:main:146 - Scripts:/Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/scripts/dw_create
+2025-05-19 22:02:06.954 | INFO     | __main__:main:147 - SQL:    /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create
+2025-05-19 22:02:06.954 | INFO     | __main__:main:148 - Input:  /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/data/prepared
+2025-05-19 22:02:06.954 | INFO     | __main__:main:149 - Output: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/dw/smart_sales.sqlite
+2025-05-19 22:02:06.954 | INFO     | __main__:create_dw:59 - Creating data warehouse using SQLite...
+2025-05-19 22:02:06.956 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/00_drop_all_tables.sql
+2025-05-19 22:02:06.959 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/10_create_customers.sql
+2025-05-19 22:02:06.960 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/20_create_products.sql
+2025-05-19 22:02:06.960 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/90_create_sales.sql
+2025-05-19 22:02:06.961 | INFO     | __main__:create_dw:75 - Data warehouse schema created successfully.
+2025-05-19 22:02:06.961 | INFO     | __main__:populate_dw:88 - Populating SQLite data warehouse from prepared CSVs...
+2025-05-19 22:02:06.965 | ERROR    | __main__:populate_dw:135 - Error populating SQLite data warehouse: table customers has no column named CustomerSegment
+2025-05-19 22:02:35.484 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-05-19 22:02:35.484 | INFO     | __main__:main:142 - ========================================
+2025-05-19 22:02:35.484 | INFO     | __main__:main:143 - Starting: create_dw_sqlite.py
+2025-05-19 22:02:35.484 | INFO     | __main__:main:144 - ========================================
+2025-05-19 22:02:35.484 | INFO     | __main__:main:145 - Root:   /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman
+2025-05-19 22:02:35.484 | INFO     | __main__:main:146 - Scripts:/Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/scripts/dw_create
+2025-05-19 22:02:35.484 | INFO     | __main__:main:147 - SQL:    /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create
+2025-05-19 22:02:35.484 | INFO     | __main__:main:148 - Input:  /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/data/prepared
+2025-05-19 22:02:35.484 | INFO     | __main__:main:149 - Output: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/dw/smart_sales.sqlite
+2025-05-19 22:02:35.484 | INFO     | __main__:create_dw:59 - Creating data warehouse using SQLite...
+2025-05-19 22:02:35.486 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/00_drop_all_tables.sql
+2025-05-19 22:02:35.488 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/10_create_customers.sql
+2025-05-19 22:02:35.489 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/20_create_products.sql
+2025-05-19 22:02:35.490 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/90_create_sales.sql
+2025-05-19 22:02:35.491 | INFO     | __main__:create_dw:75 - Data warehouse schema created successfully.
+2025-05-19 22:02:35.491 | INFO     | __main__:populate_dw:88 - Populating SQLite data warehouse from prepared CSVs...
+2025-05-19 22:02:35.495 | ERROR    | __main__:populate_dw:135 - Error populating SQLite data warehouse: table customers has no column named CustomerSegment
+2025-05-19 22:03:25.494 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-05-19 22:03:25.494 | INFO     | __main__:main:142 - ========================================
+2025-05-19 22:03:25.494 | INFO     | __main__:main:143 - Starting: create_dw_sqlite.py
+2025-05-19 22:03:25.494 | INFO     | __main__:main:144 - ========================================
+2025-05-19 22:03:25.494 | INFO     | __main__:main:145 - Root:   /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman
+2025-05-19 22:03:25.494 | INFO     | __main__:main:146 - Scripts:/Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/scripts/dw_create
+2025-05-19 22:03:25.494 | INFO     | __main__:main:147 - SQL:    /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create
+2025-05-19 22:03:25.494 | INFO     | __main__:main:148 - Input:  /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/data/prepared
+2025-05-19 22:03:25.494 | INFO     | __main__:main:149 - Output: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/dw/smart_sales.sqlite
+2025-05-19 22:03:25.494 | INFO     | __main__:create_dw:59 - Creating data warehouse using SQLite...
+2025-05-19 22:03:25.496 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/00_drop_all_tables.sql
+2025-05-19 22:03:25.498 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/10_create_customers.sql
+2025-05-19 22:03:25.499 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/20_create_products.sql
+2025-05-19 22:03:25.499 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/90_create_sales.sql
+2025-05-19 22:03:25.500 | INFO     | __main__:create_dw:75 - Data warehouse schema created successfully.
+2025-05-19 22:03:25.500 | INFO     | __main__:populate_dw:88 - Populating SQLite data warehouse from prepared CSVs...
+2025-05-19 22:03:25.505 | ERROR    | __main__:populate_dw:135 - Error populating SQLite data warehouse: UNIQUE constraint failed: customers.customer_id
+2025-05-19 22:05:26.823 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-05-19 22:05:26.823 | INFO     | __main__:main:149 - ========================================
+2025-05-19 22:05:26.823 | INFO     | __main__:main:150 - Starting: create_dw_sqlite.py
+2025-05-19 22:05:26.823 | INFO     | __main__:main:151 - ========================================
+2025-05-19 22:05:26.823 | INFO     | __main__:main:152 - Root:   /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman
+2025-05-19 22:05:26.823 | INFO     | __main__:main:153 - Scripts:/Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/scripts/dw_create
+2025-05-19 22:05:26.823 | INFO     | __main__:main:154 - SQL:    /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create
+2025-05-19 22:05:26.823 | INFO     | __main__:main:155 - Input:  /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/data/prepared
+2025-05-19 22:05:26.823 | INFO     | __main__:main:156 - Output: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/dw/smart_sales.sqlite
+2025-05-19 22:05:26.823 | INFO     | __main__:create_dw:59 - Creating data warehouse using SQLite...
+2025-05-19 22:05:26.825 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/00_drop_all_tables.sql
+2025-05-19 22:05:26.827 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/10_create_customers.sql
+2025-05-19 22:05:26.828 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/20_create_products.sql
+2025-05-19 22:05:26.829 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/90_create_sales.sql
+2025-05-19 22:05:26.830 | INFO     | __main__:create_dw:75 - Data warehouse schema created successfully.
+2025-05-19 22:05:26.830 | INFO     | __main__:populate_dw:88 - Populating SQLite data warehouse from prepared CSVs...
+2025-05-19 22:05:26.837 | INFO     | __main__:populate_dw:105 - Inserted 200 rows into customers table.
+2025-05-19 22:05:26.838 | ERROR    | __main__:populate_dw:142 - Error populating SQLite data warehouse: Index(['product_id'], dtype='object')
+2025-05-19 22:06:48.063 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-05-19 22:06:48.063 | INFO     | __main__:main:154 - ========================================
+2025-05-19 22:06:48.063 | INFO     | __main__:main:155 - Starting: create_dw_sqlite.py
+2025-05-19 22:06:48.063 | INFO     | __main__:main:156 - ========================================
+2025-05-19 22:06:48.063 | INFO     | __main__:main:157 - Root:   /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman
+2025-05-19 22:06:48.063 | INFO     | __main__:main:158 - Scripts:/Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/scripts/dw_create
+2025-05-19 22:06:48.063 | INFO     | __main__:main:159 - SQL:    /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create
+2025-05-19 22:06:48.063 | INFO     | __main__:main:160 - Input:  /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/data/prepared
+2025-05-19 22:06:48.063 | INFO     | __main__:main:161 - Output: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/dw/smart_sales.sqlite
+2025-05-19 22:06:48.063 | INFO     | __main__:create_dw:59 - Creating data warehouse using SQLite...
+2025-05-19 22:06:48.065 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/00_drop_all_tables.sql
+2025-05-19 22:06:48.067 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/10_create_customers.sql
+2025-05-19 22:06:48.068 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/20_create_products.sql
+2025-05-19 22:06:48.069 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/90_create_sales.sql
+2025-05-19 22:06:48.069 | INFO     | __main__:create_dw:75 - Data warehouse schema created successfully.
+2025-05-19 22:06:48.069 | INFO     | __main__:populate_dw:88 - Populating SQLite data warehouse from prepared CSVs...
+2025-05-19 22:06:48.074 | ERROR    | __main__:populate_dw:147 - Error populating SQLite data warehouse: table customers has no column named loyalty_points
+2025-05-19 22:09:44.069 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-05-19 22:09:44.069 | INFO     | __main__:main:147 - ========================================
+2025-05-19 22:09:44.069 | INFO     | __main__:main:148 - Starting: create_dw_sqlite.py
+2025-05-19 22:09:44.069 | INFO     | __main__:main:149 - ========================================
+2025-05-19 22:09:44.069 | INFO     | __main__:main:150 - Root:   /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman
+2025-05-19 22:09:44.069 | INFO     | __main__:main:151 - Scripts:/Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/scripts/dw_create
+2025-05-19 22:09:44.069 | INFO     | __main__:main:152 - SQL:    /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create
+2025-05-19 22:09:44.069 | INFO     | __main__:main:153 - Input:  /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/data/prepared
+2025-05-19 22:09:44.069 | INFO     | __main__:main:154 - Output: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/dw/smart_sales.sqlite
+2025-05-19 22:09:44.069 | INFO     | __main__:create_dw:59 - Creating data warehouse using SQLite...
+2025-05-19 22:09:44.071 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/00_drop_all_tables.sql
+2025-05-19 22:09:44.073 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/10_create_customers.sql
+2025-05-19 22:09:44.074 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/20_create_products.sql
+2025-05-19 22:09:44.074 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/90_create_sales.sql
+2025-05-19 22:09:44.075 | INFO     | __main__:create_dw:75 - Data warehouse schema created successfully.
+2025-05-19 22:09:44.075 | INFO     | __main__:populate_dw:88 - Populating SQLite data warehouse from prepared CSVs...
+2025-05-19 22:09:44.079 | ERROR    | __main__:populate_dw:140 - Error populating SQLite data warehouse: table customers has no column named loyalty_points
+2025-05-19 22:11:00.336 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-05-19 22:11:00.336 | INFO     | __main__:main:147 - ========================================
+2025-05-19 22:11:00.336 | INFO     | __main__:main:148 - Starting: create_dw_sqlite.py
+2025-05-19 22:11:00.336 | INFO     | __main__:main:149 - ========================================
+2025-05-19 22:11:00.336 | INFO     | __main__:main:150 - Root:   /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman
+2025-05-19 22:11:00.336 | INFO     | __main__:main:151 - Scripts:/Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/scripts/dw_create
+2025-05-19 22:11:00.336 | INFO     | __main__:main:152 - SQL:    /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create
+2025-05-19 22:11:00.336 | INFO     | __main__:main:153 - Input:  /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/data/prepared
+2025-05-19 22:11:00.336 | INFO     | __main__:main:154 - Output: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/dw/smart_sales.sqlite
+2025-05-19 22:11:00.336 | INFO     | __main__:create_dw:59 - Creating data warehouse using SQLite...
+2025-05-19 22:11:00.338 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/00_drop_all_tables.sql
+2025-05-19 22:11:00.340 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/10_create_customers.sql
+2025-05-19 22:11:00.341 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/20_create_products.sql
+2025-05-19 22:11:00.342 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/90_create_sales.sql
+2025-05-19 22:11:00.342 | INFO     | __main__:create_dw:75 - Data warehouse schema created successfully.
+2025-05-19 22:11:00.342 | INFO     | __main__:populate_dw:88 - Populating SQLite data warehouse from prepared CSVs...
+2025-05-19 22:11:00.345 | ERROR    | __main__:populate_dw:140 - Error populating SQLite data warehouse: table customers has no column named loyalty_points
+2025-05-19 22:11:54.750 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-05-19 22:11:54.751 | INFO     | __main__:main:147 - ========================================
+2025-05-19 22:11:54.751 | INFO     | __main__:main:148 - Starting: create_dw_sqlite.py
+2025-05-19 22:11:54.751 | INFO     | __main__:main:149 - ========================================
+2025-05-19 22:11:54.751 | INFO     | __main__:main:150 - Root:   /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman
+2025-05-19 22:11:54.751 | INFO     | __main__:main:151 - Scripts:/Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/scripts/dw_create
+2025-05-19 22:11:54.751 | INFO     | __main__:main:152 - SQL:    /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create
+2025-05-19 22:11:54.751 | INFO     | __main__:main:153 - Input:  /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/data/prepared
+2025-05-19 22:11:54.751 | INFO     | __main__:main:154 - Output: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/dw/smart_sales.sqlite
+2025-05-19 22:11:54.751 | INFO     | __main__:create_dw:59 - Creating data warehouse using SQLite...
+2025-05-19 22:11:54.753 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/00_drop_all_tables.sql
+2025-05-19 22:11:54.754 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/10_create_customers.sql
+2025-05-19 22:11:54.754 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/20_create_products.sql
+2025-05-19 22:11:54.755 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/90_create_sales.sql
+2025-05-19 22:11:54.755 | INFO     | __main__:create_dw:75 - Data warehouse schema created successfully.
+2025-05-19 22:11:54.756 | INFO     | __main__:populate_dw:88 - Populating SQLite data warehouse from prepared CSVs...
+2025-05-19 22:11:54.760 | ERROR    | __main__:populate_dw:140 - Error populating SQLite data warehouse: table customers has no column named loyalty_points
+2025-05-19 22:15:11.332 | INFO     | __main__:<module>:39 - Logging to file: logs/project_log.log
+2025-05-19 22:15:11.332 | INFO     | __main__:main:61 - STARTING logger.py
+2025-05-19 22:15:11.332 | INFO     | __main__:log_example:52 - This is an example info message.
+2025-05-19 22:15:11.332 | WARNING  | __main__:log_example:53 - This is an example warning message.
+2025-05-19 22:15:11.332 | ERROR    | __main__:log_example:54 - This is an example error message.
+2025-05-19 22:15:11.332 | INFO     | __main__:main:66 - View the log output at logs/project_log.log
+2025-05-19 22:15:11.333 | INFO     | __main__:main:67 - EXITING logger.py.
+2025-05-19 22:17:03.116 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-05-19 22:17:03.117 | INFO     | __main__:main:147 - ========================================
+2025-05-19 22:17:03.117 | INFO     | __main__:main:148 - Starting: create_dw_sqlite.py
+2025-05-19 22:17:03.117 | INFO     | __main__:main:149 - ========================================
+2025-05-19 22:17:03.117 | INFO     | __main__:main:150 - Root:   /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman
+2025-05-19 22:17:03.117 | INFO     | __main__:main:151 - Scripts:/Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/scripts/dw_create
+2025-05-19 22:17:03.117 | INFO     | __main__:main:152 - SQL:    /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create
+2025-05-19 22:17:03.117 | INFO     | __main__:main:153 - Input:  /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/data/prepared
+2025-05-19 22:17:03.117 | INFO     | __main__:main:154 - Output: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/dw/smart_sales.sqlite
+2025-05-19 22:17:03.117 | INFO     | __main__:create_dw:59 - Creating data warehouse using SQLite...
+2025-05-19 22:17:03.119 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/00_drop_all_tables.sql
+2025-05-19 22:17:03.119 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/10_create_customers.sql
+2025-05-19 22:17:03.120 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/20_create_products.sql
+2025-05-19 22:17:03.121 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/90_create_sales.sql
+2025-05-19 22:17:03.122 | INFO     | __main__:create_dw:75 - Data warehouse schema created successfully.
+2025-05-19 22:17:03.122 | INFO     | __main__:populate_dw:88 - Populating SQLite data warehouse from prepared CSVs...
+2025-05-19 22:17:03.126 | ERROR    | __main__:populate_dw:140 - Error populating SQLite data warehouse: table customers has no column named loyalty_points
+2025-05-19 22:18:56.526 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-05-19 22:18:56.526 | INFO     | __main__:main:154 - ========================================
+2025-05-19 22:18:56.526 | INFO     | __main__:main:155 - Starting: create_dw_sqlite.py
+2025-05-19 22:18:56.526 | INFO     | __main__:main:156 - ========================================
+2025-05-19 22:18:56.526 | INFO     | __main__:main:157 - Root:   /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman
+2025-05-19 22:18:56.526 | INFO     | __main__:main:158 - Scripts:/Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/scripts/dw_create
+2025-05-19 22:18:56.526 | INFO     | __main__:main:159 - SQL:    /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create
+2025-05-19 22:18:56.526 | INFO     | __main__:main:160 - Input:  /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/data/prepared
+2025-05-19 22:18:56.526 | INFO     | __main__:main:161 - Output: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/dw/smart_sales.sqlite
+2025-05-19 22:18:56.526 | INFO     | __main__:create_dw:61 - Creating data warehouse using SQLite...
+2025-05-19 22:18:56.528 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/00_drop_all_tables.sql
+2025-05-19 22:18:56.529 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/10_create_customers.sql
+2025-05-19 22:18:56.530 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/20_create_products.sql
+2025-05-19 22:18:56.530 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/90_create_sales.sql
+2025-05-19 22:18:56.531 | INFO     | __main__:create_dw:82 - Data warehouse schema created successfully.
+2025-05-19 22:18:56.531 | INFO     | __main__:populate_dw:95 - Populating SQLite data warehouse from prepared CSVs...
+2025-05-19 22:18:56.535 | ERROR    | __main__:populate_dw:147 - Error populating SQLite data warehouse: table customers has no column named loyalty_points
+2025-05-19 22:21:08.051 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-05-19 22:21:08.051 | INFO     | __main__:main:154 - ========================================
+2025-05-19 22:21:08.051 | INFO     | __main__:main:155 - Starting: create_dw_sqlite.py
+2025-05-19 22:21:08.051 | INFO     | __main__:main:156 - ========================================
+2025-05-19 22:21:08.051 | INFO     | __main__:main:157 - Root:   /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman
+2025-05-19 22:21:08.051 | INFO     | __main__:main:158 - Scripts:/Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/scripts/dw_create
+2025-05-19 22:21:08.051 | INFO     | __main__:main:159 - SQL:    /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create
+2025-05-19 22:21:08.051 | INFO     | __main__:main:160 - Input:  /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/data/prepared
+2025-05-19 22:21:08.051 | INFO     | __main__:main:161 - Output: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/dw/smart_sales.sqlite
+2025-05-19 22:21:08.051 | INFO     | __main__:create_dw:61 - Creating data warehouse using SQLite...
+2025-05-19 22:21:08.053 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/00_drop_all_tables.sql
+2025-05-19 22:21:08.054 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/10_create_customers.sql
+2025-05-19 22:21:08.054 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/20_create_products.sql
+2025-05-19 22:21:08.055 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/90_create_sales.sql
+2025-05-19 22:21:08.055 | INFO     | __main__:create_dw:82 - Data warehouse schema created successfully.
+2025-05-19 22:21:08.055 | INFO     | __main__:populate_dw:95 - Populating SQLite data warehouse from prepared CSVs...
+2025-05-19 22:21:08.060 | ERROR    | __main__:populate_dw:147 - Error populating SQLite data warehouse: table customers has no column named loyalty_points
+2025-05-19 22:23:00.830 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-05-19 22:23:00.830 | INFO     | __main__:main:128 - ========================================
+2025-05-19 22:23:00.830 | INFO     | __main__:main:129 - Starting: create_dw_sqlite.py
+2025-05-19 22:23:00.830 | INFO     | __main__:main:130 - ========================================
+2025-05-19 22:23:00.830 | INFO     | __main__:main:131 - Root:   /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman
+2025-05-19 22:23:00.830 | INFO     | __main__:main:132 - Scripts:/Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/scripts/dw_create
+2025-05-19 22:23:00.830 | INFO     | __main__:main:133 - SQL:    /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create
+2025-05-19 22:23:00.831 | INFO     | __main__:main:134 - Input:  /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/data/prepared
+2025-05-19 22:23:00.831 | INFO     | __main__:main:135 - Output: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/dw/smart_sales.sqlite
+2025-05-19 22:23:00.831 | INFO     | __main__:create_dw:59 - Creating data warehouse using SQLite...
+2025-05-19 22:23:00.833 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/00_drop_all_tables.sql
+2025-05-19 22:23:00.834 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/10_create_customers.sql
+2025-05-19 22:23:00.835 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/20_create_products.sql
+2025-05-19 22:23:00.835 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/90_create_sales.sql
+2025-05-19 22:23:00.836 | INFO     | __main__:create_dw:75 - Data warehouse schema created successfully.
+2025-05-19 22:23:00.836 | INFO     | __main__:populate_dw:88 - Populating SQLite data warehouse from prepared CSVs...
+2025-05-19 22:23:00.840 | ERROR    | __main__:populate_dw:121 - Error populating SQLite data warehouse: table customers has no column named CustomerID
+2025-05-19 22:25:33.735 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-05-19 22:25:33.736 | INFO     | __main__:main:128 - ========================================
+2025-05-19 22:25:33.736 | INFO     | __main__:main:129 - Starting: create_dw_sqlite.py
+2025-05-19 22:25:33.736 | INFO     | __main__:main:130 - ========================================
+2025-05-19 22:25:33.736 | INFO     | __main__:main:131 - Root:   /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman
+2025-05-19 22:25:33.736 | INFO     | __main__:main:132 - Scripts:/Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/scripts/dw_create
+2025-05-19 22:25:33.736 | INFO     | __main__:main:133 - SQL:    /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create
+2025-05-19 22:25:33.736 | INFO     | __main__:main:134 - Input:  /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/data/prepared
+2025-05-19 22:25:33.736 | INFO     | __main__:main:135 - Output: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/dw/smart_sales.sqlite
+2025-05-19 22:25:33.736 | INFO     | __main__:create_dw:59 - Creating data warehouse using SQLite...
+2025-05-19 22:25:33.739 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/00_drop_all_tables.sql
+2025-05-19 22:25:33.739 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/10_create_customers.sql
+2025-05-19 22:25:33.740 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/20_create_products.sql
+2025-05-19 22:25:33.740 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/90_create_sales.sql
+2025-05-19 22:25:33.741 | INFO     | __main__:create_dw:75 - Data warehouse schema created successfully.
+2025-05-19 22:25:33.741 | INFO     | __main__:populate_dw:88 - Populating SQLite data warehouse from prepared CSVs...
+2025-05-19 22:25:33.745 | ERROR    | __main__:populate_dw:121 - Error populating SQLite data warehouse: table customers has no column named CustomerID
+2025-05-19 22:27:01.034 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-05-19 22:27:01.034 | INFO     | __main__:main:148 - ========================================
+2025-05-19 22:27:01.035 | INFO     | __main__:main:149 - Starting: create_dw_sqlite.py
+2025-05-19 22:27:01.035 | INFO     | __main__:main:150 - ========================================
+2025-05-19 22:27:01.035 | INFO     | __main__:main:151 - Root:   /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman
+2025-05-19 22:27:01.035 | INFO     | __main__:main:152 - Scripts:/Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/scripts/dw_create
+2025-05-19 22:27:01.035 | INFO     | __main__:main:153 - SQL:    /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create
+2025-05-19 22:27:01.035 | INFO     | __main__:main:154 - Input:  /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/data/prepared
+2025-05-19 22:27:01.035 | INFO     | __main__:main:155 - Output: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/dw/smart_sales.sqlite
+2025-05-19 22:27:01.035 | INFO     | __main__:create_dw:59 - Creating data warehouse using SQLite...
+2025-05-19 22:27:01.037 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/00_drop_all_tables.sql
+2025-05-19 22:27:01.038 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/10_create_customers.sql
+2025-05-19 22:27:01.039 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/20_create_products.sql
+2025-05-19 22:27:01.040 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/90_create_sales.sql
+2025-05-19 22:27:01.041 | INFO     | __main__:create_dw:75 - Data warehouse schema created successfully.
+2025-05-19 22:27:01.041 | INFO     | __main__:populate_dw:88 - Populating SQLite data warehouse from prepared CSVs...
+2025-05-19 22:27:01.045 | ERROR    | __main__:populate_dw:141 - Error populating SQLite data warehouse: table customers has no column named loyalty_points
+2025-05-19 22:29:30.266 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-05-19 22:29:30.267 | INFO     | __main__:main:148 - ========================================
+2025-05-19 22:29:30.267 | INFO     | __main__:main:149 - Starting: create_dw_sqlite.py
+2025-05-19 22:29:30.267 | INFO     | __main__:main:150 - ========================================
+2025-05-19 22:29:30.267 | INFO     | __main__:main:151 - Root:   /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman
+2025-05-19 22:29:30.267 | INFO     | __main__:main:152 - Scripts:/Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/scripts/dw_create
+2025-05-19 22:29:30.267 | INFO     | __main__:main:153 - SQL:    /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create
+2025-05-19 22:29:30.267 | INFO     | __main__:main:154 - Input:  /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/data/prepared
+2025-05-19 22:29:30.267 | INFO     | __main__:main:155 - Output: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/dw/smart_sales.sqlite
+2025-05-19 22:29:30.267 | INFO     | __main__:create_dw:59 - Creating data warehouse using SQLite...
+2025-05-19 22:29:30.269 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/00_drop_all_tables.sql
+2025-05-19 22:29:30.270 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/10_create_customers.sql
+2025-05-19 22:29:30.271 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/20_create_products.sql
+2025-05-19 22:29:30.272 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/90_create_sales.sql
+2025-05-19 22:29:30.272 | INFO     | __main__:create_dw:75 - Data warehouse schema created successfully.
+2025-05-19 22:29:30.272 | INFO     | __main__:populate_dw:88 - Populating SQLite data warehouse from prepared CSVs...
+2025-05-19 22:29:30.276 | ERROR    | __main__:populate_dw:141 - Error populating SQLite data warehouse: table customers has no column named loyalty_points
+2025-05-19 22:29:57.858 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-05-19 22:29:57.858 | INFO     | __main__:main:148 - ========================================
+2025-05-19 22:29:57.859 | INFO     | __main__:main:149 - Starting: create_dw_sqlite.py
+2025-05-19 22:29:57.859 | INFO     | __main__:main:150 - ========================================
+2025-05-19 22:29:57.859 | INFO     | __main__:main:151 - Root:   /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman
+2025-05-19 22:29:57.859 | INFO     | __main__:main:152 - Scripts:/Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/scripts/dw_create
+2025-05-19 22:29:57.859 | INFO     | __main__:main:153 - SQL:    /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create
+2025-05-19 22:29:57.859 | INFO     | __main__:main:154 - Input:  /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/data/prepared
+2025-05-19 22:29:57.859 | INFO     | __main__:main:155 - Output: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/dw/smart_sales.sqlite
+2025-05-19 22:29:57.859 | INFO     | __main__:create_dw:59 - Creating data warehouse using SQLite...
+2025-05-19 22:29:57.861 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/00_drop_all_tables.sql
+2025-05-19 22:29:57.863 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/10_create_customers.sql
+2025-05-19 22:29:57.864 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/20_create_products.sql
+2025-05-19 22:29:57.864 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/90_create_sales.sql
+2025-05-19 22:29:57.865 | INFO     | __main__:create_dw:75 - Data warehouse schema created successfully.
+2025-05-19 22:29:57.865 | INFO     | __main__:populate_dw:88 - Populating SQLite data warehouse from prepared CSVs...
+2025-05-19 22:29:57.868 | ERROR    | __main__:populate_dw:141 - Error populating SQLite data warehouse: table customers has no column named customer_segment
+2025-05-19 22:30:27.871 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-05-19 22:30:27.871 | INFO     | __main__:main:148 - ========================================
+2025-05-19 22:30:27.871 | INFO     | __main__:main:149 - Starting: create_dw_sqlite.py
+2025-05-19 22:30:27.871 | INFO     | __main__:main:150 - ========================================
+2025-05-19 22:30:27.871 | INFO     | __main__:main:151 - Root:   /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman
+2025-05-19 22:30:27.871 | INFO     | __main__:main:152 - Scripts:/Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/scripts/dw_create
+2025-05-19 22:30:27.871 | INFO     | __main__:main:153 - SQL:    /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create
+2025-05-19 22:30:27.871 | INFO     | __main__:main:154 - Input:  /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/data/prepared
+2025-05-19 22:30:27.871 | INFO     | __main__:main:155 - Output: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/dw/smart_sales.sqlite
+2025-05-19 22:30:27.871 | INFO     | __main__:create_dw:59 - Creating data warehouse using SQLite...
+2025-05-19 22:30:27.874 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/00_drop_all_tables.sql
+2025-05-19 22:30:27.875 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/10_create_customers.sql
+2025-05-19 22:30:27.876 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/20_create_products.sql
+2025-05-19 22:30:27.876 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/90_create_sales.sql
+2025-05-19 22:30:27.877 | INFO     | __main__:create_dw:75 - Data warehouse schema created successfully.
+2025-05-19 22:30:27.877 | INFO     | __main__:populate_dw:88 - Populating SQLite data warehouse from prepared CSVs...
+2025-05-19 22:30:27.879 | ERROR    | __main__:populate_dw:141 - Error populating SQLite data warehouse: table customers has no column named customer_segment
+2025-05-19 22:32:17.577 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-05-19 22:32:17.578 | INFO     | __main__:main:148 - ========================================
+2025-05-19 22:32:17.578 | INFO     | __main__:main:149 - Starting: create_dw_sqlite.py
+2025-05-19 22:32:17.578 | INFO     | __main__:main:150 - ========================================
+2025-05-19 22:32:17.578 | INFO     | __main__:main:151 - Root:   /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman
+2025-05-19 22:32:17.578 | INFO     | __main__:main:152 - Scripts:/Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/scripts/dw_create
+2025-05-19 22:32:17.578 | INFO     | __main__:main:153 - SQL:    /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create
+2025-05-19 22:32:17.578 | INFO     | __main__:main:154 - Input:  /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/data/prepared
+2025-05-19 22:32:17.578 | INFO     | __main__:main:155 - Output: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/dw/smart_sales.sqlite
+2025-05-19 22:32:17.578 | INFO     | __main__:create_dw:59 - Creating data warehouse using SQLite...
+2025-05-19 22:32:17.581 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/00_drop_all_tables.sql
+2025-05-19 22:32:17.582 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/10_create_customers.sql
+2025-05-19 22:32:17.583 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/20_create_products.sql
+2025-05-19 22:32:17.583 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/90_create_sales.sql
+2025-05-19 22:32:17.584 | INFO     | __main__:create_dw:75 - Data warehouse schema created successfully.
+2025-05-19 22:32:17.584 | INFO     | __main__:populate_dw:88 - Populating SQLite data warehouse from prepared CSVs...
+2025-05-19 22:32:17.590 | ERROR    | __main__:populate_dw:141 - Error populating SQLite data warehouse: UNIQUE constraint failed: customers.customer_id
+2025-05-19 22:34:11.670 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-05-19 22:34:11.670 | INFO     | __main__:main:152 - ========================================
+2025-05-19 22:34:11.670 | INFO     | __main__:main:153 - Starting: create_dw_sqlite.py
+2025-05-19 22:34:11.670 | INFO     | __main__:main:154 - ========================================
+2025-05-19 22:34:11.670 | INFO     | __main__:main:155 - Root:   /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman
+2025-05-19 22:34:11.670 | INFO     | __main__:main:156 - Scripts:/Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/scripts/dw_create
+2025-05-19 22:34:11.671 | INFO     | __main__:main:157 - SQL:    /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create
+2025-05-19 22:34:11.671 | INFO     | __main__:main:158 - Input:  /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/data/prepared
+2025-05-19 22:34:11.671 | INFO     | __main__:main:159 - Output: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/dw/smart_sales.sqlite
+2025-05-19 22:34:11.671 | INFO     | __main__:create_dw:59 - Creating data warehouse using SQLite...
+2025-05-19 22:34:11.673 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/00_drop_all_tables.sql
+2025-05-19 22:34:11.675 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/10_create_customers.sql
+2025-05-19 22:34:11.676 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/20_create_products.sql
+2025-05-19 22:34:11.676 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/90_create_sales.sql
+2025-05-19 22:34:11.677 | INFO     | __main__:create_dw:75 - Data warehouse schema created successfully.
+2025-05-19 22:34:11.677 | INFO     | __main__:populate_dw:88 - Populating SQLite data warehouse from prepared CSVs...
+2025-05-19 22:34:11.683 | INFO     | __main__:populate_dw:110 - Inserted 200 rows into customers table.
+2025-05-19 22:34:11.684 | ERROR    | __main__:populate_dw:145 - Error populating SQLite data warehouse: table products has no column named productid
+2025-05-19 22:37:47.106 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-05-19 22:37:47.107 | INFO     | __main__:main:155 - ========================================
+2025-05-19 22:37:47.107 | INFO     | __main__:main:156 - Starting: create_dw_sqlite.py
+2025-05-19 22:37:47.107 | INFO     | __main__:main:157 - ========================================
+2025-05-19 22:37:47.107 | INFO     | __main__:main:158 - Root:   /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman
+2025-05-19 22:37:47.107 | INFO     | __main__:main:159 - Scripts:/Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/scripts/dw_create
+2025-05-19 22:37:47.107 | INFO     | __main__:main:160 - SQL:    /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create
+2025-05-19 22:37:47.107 | INFO     | __main__:main:161 - Input:  /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/data/prepared
+2025-05-19 22:37:47.107 | INFO     | __main__:main:162 - Output: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/dw/smart_sales.sqlite
+2025-05-19 22:37:47.107 | INFO     | __main__:create_dw:59 - Creating data warehouse using SQLite...
+2025-05-19 22:37:47.109 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/00_drop_all_tables.sql
+2025-05-19 22:37:47.111 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/10_create_customers.sql
+2025-05-19 22:37:47.112 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/20_create_products.sql
+2025-05-19 22:37:47.113 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/90_create_sales.sql
+2025-05-19 22:37:47.114 | INFO     | __main__:create_dw:75 - Data warehouse schema created successfully.
+2025-05-19 22:37:47.114 | INFO     | __main__:populate_dw:88 - Populating SQLite data warehouse from prepared CSVs...
+2025-05-19 22:37:47.120 | ERROR    | __main__:populate_dw:148 - Error populating SQLite data warehouse: table customers has no column named join_date
+2025-05-19 22:39:02.437 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-05-19 22:39:02.437 | INFO     | __main__:main:155 - ========================================
+2025-05-19 22:39:02.437 | INFO     | __main__:main:156 - Starting: create_dw_sqlite.py
+2025-05-19 22:39:02.437 | INFO     | __main__:main:157 - ========================================
+2025-05-19 22:39:02.437 | INFO     | __main__:main:158 - Root:   /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman
+2025-05-19 22:39:02.437 | INFO     | __main__:main:159 - Scripts:/Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/scripts/dw_create
+2025-05-19 22:39:02.437 | INFO     | __main__:main:160 - SQL:    /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create
+2025-05-19 22:39:02.437 | INFO     | __main__:main:161 - Input:  /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/data/prepared
+2025-05-19 22:39:02.437 | INFO     | __main__:main:162 - Output: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/dw/smart_sales.sqlite
+2025-05-19 22:39:02.437 | INFO     | __main__:create_dw:59 - Creating data warehouse using SQLite...
+2025-05-19 22:39:02.439 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/00_drop_all_tables.sql
+2025-05-19 22:39:02.441 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/10_create_customers.sql
+2025-05-19 22:39:02.442 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/20_create_products.sql
+2025-05-19 22:39:02.442 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/90_create_sales.sql
+2025-05-19 22:39:02.443 | INFO     | __main__:create_dw:75 - Data warehouse schema created successfully.
+2025-05-19 22:39:02.443 | INFO     | __main__:populate_dw:88 - Populating SQLite data warehouse from prepared CSVs...
+2025-05-19 22:39:02.449 | ERROR    | __main__:populate_dw:148 - Error populating SQLite data warehouse: table customers has no column named join_date
+2025-05-19 22:39:16.796 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-05-19 22:39:16.796 | INFO     | __main__:main:155 - ========================================
+2025-05-19 22:39:16.796 | INFO     | __main__:main:156 - Starting: create_dw_sqlite.py
+2025-05-19 22:39:16.796 | INFO     | __main__:main:157 - ========================================
+2025-05-19 22:39:16.796 | INFO     | __main__:main:158 - Root:   /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman
+2025-05-19 22:39:16.796 | INFO     | __main__:main:159 - Scripts:/Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/scripts/dw_create
+2025-05-19 22:39:16.796 | INFO     | __main__:main:160 - SQL:    /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create
+2025-05-19 22:39:16.796 | INFO     | __main__:main:161 - Input:  /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/data/prepared
+2025-05-19 22:39:16.796 | INFO     | __main__:main:162 - Output: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/dw/smart_sales.sqlite
+2025-05-19 22:39:16.796 | INFO     | __main__:create_dw:59 - Creating data warehouse using SQLite...
+2025-05-19 22:39:16.799 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/00_drop_all_tables.sql
+2025-05-19 22:39:16.799 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/10_create_customers.sql
+2025-05-19 22:39:16.800 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/20_create_products.sql
+2025-05-19 22:39:16.800 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/90_create_sales.sql
+2025-05-19 22:39:16.801 | INFO     | __main__:create_dw:75 - Data warehouse schema created successfully.
+2025-05-19 22:39:16.801 | INFO     | __main__:populate_dw:88 - Populating SQLite data warehouse from prepared CSVs...
+2025-05-19 22:39:16.805 | INFO     | __main__:populate_dw:110 - Inserted 200 rows into customers table.
+2025-05-19 22:39:16.806 | ERROR    | __main__:populate_dw:148 - Error populating SQLite data warehouse: table products has no column named productid
+2025-05-19 22:42:54.801 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-05-19 22:42:54.801 | INFO     | __main__:main:156 - ========================================
+2025-05-19 22:42:54.801 | INFO     | __main__:main:157 - Starting: create_dw_sqlite.py
+2025-05-19 22:42:54.801 | INFO     | __main__:main:158 - ========================================
+2025-05-19 22:42:54.801 | INFO     | __main__:main:159 - Root:   /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman
+2025-05-19 22:42:54.801 | INFO     | __main__:main:160 - Scripts:/Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/scripts/dw_create
+2025-05-19 22:42:54.801 | INFO     | __main__:main:161 - SQL:    /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create
+2025-05-19 22:42:54.801 | INFO     | __main__:main:162 - Input:  /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/data/prepared
+2025-05-19 22:42:54.801 | INFO     | __main__:main:163 - Output: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/dw/smart_sales.sqlite
+2025-05-19 22:42:54.801 | INFO     | __main__:create_dw:59 - Creating data warehouse using SQLite...
+2025-05-19 22:42:54.804 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/00_drop_all_tables.sql
+2025-05-19 22:42:54.805 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/10_create_customers.sql
+2025-05-19 22:42:54.806 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/20_create_products.sql
+2025-05-19 22:42:54.807 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/90_create_sales.sql
+2025-05-19 22:42:54.807 | INFO     | __main__:create_dw:75 - Data warehouse schema created successfully.
+2025-05-19 22:42:54.807 | INFO     | __main__:populate_dw:88 - Populating SQLite data warehouse from prepared CSVs...
+2025-05-19 22:42:54.816 | INFO     | __main__:populate_dw:110 - Inserted 200 rows into customers table.
+2025-05-19 22:42:54.817 | ERROR    | __main__:populate_dw:149 - Error populating SQLite data warehouse: table products has no column named productid
+2025-05-19 22:48:53.500 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-05-19 22:48:53.500 | INFO     | __main__:main:155 - ========================================
+2025-05-19 22:48:53.500 | INFO     | __main__:main:156 - Starting: create_dw_sqlite.py
+2025-05-19 22:48:53.500 | INFO     | __main__:main:157 - ========================================
+2025-05-19 22:48:53.500 | INFO     | __main__:main:158 - Root:   /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman
+2025-05-19 22:48:53.500 | INFO     | __main__:main:159 - Scripts:/Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/scripts/dw_create
+2025-05-19 22:48:53.500 | INFO     | __main__:main:160 - SQL:    /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create
+2025-05-19 22:48:53.500 | INFO     | __main__:main:161 - Input:  /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/data/prepared
+2025-05-19 22:48:53.500 | INFO     | __main__:main:162 - Output: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/dw/smart_sales.sqlite
+2025-05-19 22:48:53.500 | INFO     | __main__:create_dw:59 - Creating data warehouse using SQLite...
+2025-05-19 22:48:53.502 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/00_drop_all_tables.sql
+2025-05-19 22:48:53.503 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/10_create_customers.sql
+2025-05-19 22:48:53.503 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/20_create_products.sql
+2025-05-19 22:48:53.504 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/90_create_sales.sql
+2025-05-19 22:48:53.504 | INFO     | __main__:create_dw:75 - Data warehouse schema created successfully.
+2025-05-19 22:48:53.504 | INFO     | __main__:populate_dw:88 - Populating SQLite data warehouse from prepared CSVs...
+2025-05-19 22:48:53.511 | INFO     | __main__:populate_dw:110 - Inserted 200 rows into customers table.
+2025-05-19 22:48:53.513 | ERROR    | __main__:populate_dw:148 - Error populating SQLite data warehouse: NOT NULL constraint failed: products.product_name
+2025-05-19 22:50:40.387 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-05-19 22:50:40.387 | INFO     | __main__:main:163 - ========================================
+2025-05-19 22:50:40.387 | INFO     | __main__:main:164 - Starting: create_dw_sqlite.py
+2025-05-19 22:50:40.387 | INFO     | __main__:main:165 - ========================================
+2025-05-19 22:50:40.387 | INFO     | __main__:main:166 - Root:   /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman
+2025-05-19 22:50:40.387 | INFO     | __main__:main:167 - Scripts:/Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/scripts/dw_create
+2025-05-19 22:50:40.387 | INFO     | __main__:main:168 - SQL:    /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create
+2025-05-19 22:50:40.387 | INFO     | __main__:main:169 - Input:  /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/data/prepared
+2025-05-19 22:50:40.387 | INFO     | __main__:main:170 - Output: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/dw/smart_sales.sqlite
+2025-05-19 22:50:40.387 | INFO     | __main__:create_dw:59 - Creating data warehouse using SQLite...
+2025-05-19 22:50:40.389 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/00_drop_all_tables.sql
+2025-05-19 22:50:40.392 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/10_create_customers.sql
+2025-05-19 22:50:40.393 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/20_create_products.sql
+2025-05-19 22:50:40.393 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/90_create_sales.sql
+2025-05-19 22:50:40.394 | INFO     | __main__:create_dw:75 - Data warehouse schema created successfully.
+2025-05-19 22:50:40.394 | INFO     | __main__:populate_dw:88 - Populating SQLite data warehouse from prepared CSVs...
+2025-05-19 22:50:40.397 | INFO     | __main__:populate_dw:110 - Inserted 200 rows into customers table.
+2025-05-19 22:50:40.399 | INFO     | __main__:populate_dw:132 - Inserted 100 rows into products table.
+2025-05-19 22:50:40.403 | ERROR    | __main__:populate_dw:156 - Error populating SQLite data warehouse: table sales has no column named date
+2025-05-19 22:54:11.627 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-05-19 22:54:11.627 | INFO     | __main__:main:180 - ========================================
+2025-05-19 22:54:11.627 | INFO     | __main__:main:181 - Starting: create_dw_sqlite.py
+2025-05-19 22:54:11.627 | INFO     | __main__:main:182 - ========================================
+2025-05-19 22:54:11.627 | INFO     | __main__:main:183 - Root:   /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman
+2025-05-19 22:54:11.627 | INFO     | __main__:main:184 - Scripts:/Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/scripts/dw_create
+2025-05-19 22:54:11.627 | INFO     | __main__:main:185 - SQL:    /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create
+2025-05-19 22:54:11.627 | INFO     | __main__:main:186 - Input:  /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/data/prepared
+2025-05-19 22:54:11.627 | INFO     | __main__:main:187 - Output: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/dw/smart_sales.sqlite
+2025-05-19 22:54:11.627 | INFO     | __main__:create_dw:59 - Creating data warehouse using SQLite...
+2025-05-19 22:54:11.629 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/00_drop_all_tables.sql
+2025-05-19 22:54:11.631 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/10_create_customers.sql
+2025-05-19 22:54:11.632 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/20_create_products.sql
+2025-05-19 22:54:11.632 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/90_create_sales.sql
+2025-05-19 22:54:11.633 | INFO     | __main__:create_dw:75 - Data warehouse schema created successfully.
+2025-05-19 22:54:11.633 | INFO     | __main__:populate_dw:88 - Populating SQLite data warehouse from prepared CSVs...
+2025-05-19 22:54:11.639 | INFO     | __main__:populate_dw:110 - Inserted 200 rows into customers table.
+2025-05-19 22:54:11.641 | INFO     | __main__:populate_dw:132 - Inserted 100 rows into products table.
+2025-05-19 22:54:11.647 | ERROR    | __main__:populate_dw:173 - Error populating SQLite data warehouse: UNIQUE constraint failed: sales.transaction_id
+2025-05-19 22:55:46.962 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-05-19 22:55:46.962 | INFO     | __main__:main:179 - ========================================
+2025-05-19 22:55:46.962 | INFO     | __main__:main:180 - Starting: create_dw_sqlite.py
+2025-05-19 22:55:46.962 | INFO     | __main__:main:181 - ========================================
+2025-05-19 22:55:46.962 | INFO     | __main__:main:182 - Root:   /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman
+2025-05-19 22:55:46.962 | INFO     | __main__:main:183 - Scripts:/Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/scripts/dw_create
+2025-05-19 22:55:46.962 | INFO     | __main__:main:184 - SQL:    /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create
+2025-05-19 22:55:46.962 | INFO     | __main__:main:185 - Input:  /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/data/prepared
+2025-05-19 22:55:46.962 | INFO     | __main__:main:186 - Output: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/dw/smart_sales.sqlite
+2025-05-19 22:55:46.962 | INFO     | __main__:create_dw:59 - Creating data warehouse using SQLite...
+2025-05-19 22:55:46.964 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/00_drop_all_tables.sql
+2025-05-19 22:55:46.966 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/10_create_customers.sql
+2025-05-19 22:55:46.967 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/20_create_products.sql
+2025-05-19 22:55:46.968 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/90_create_sales.sql
+2025-05-19 22:55:46.968 | INFO     | __main__:create_dw:75 - Data warehouse schema created successfully.
+2025-05-19 22:55:46.968 | INFO     | __main__:populate_dw:88 - Populating SQLite data warehouse from prepared CSVs...
+2025-05-19 22:55:46.974 | INFO     | __main__:populate_dw:110 - Inserted 200 rows into customers table.
+2025-05-19 22:55:46.977 | INFO     | __main__:populate_dw:132 - Inserted 100 rows into products table.
+2025-05-19 22:55:46.983 | INFO     | __main__:populate_dw:167 - Inserted 2000 rows into sales table.
+2025-05-19 22:55:46.983 | INFO     | __main__:populate_dw:169 - All tables populated successfully.
+2025-05-19 22:55:46.983 | INFO     | __main__:main:189 - ========================================
+2025-05-19 22:55:46.983 | INFO     | __main__:main:190 - Finished: create_dw_sqlite.py
+2025-05-19 22:55:46.983 | INFO     | __main__:main:191 - ========================================
+2025-05-19 22:56:26.160 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-05-19 22:56:26.160 | INFO     | __main__:main:179 - ========================================
+2025-05-19 22:56:26.160 | INFO     | __main__:main:180 - Starting: create_dw_sqlite.py
+2025-05-19 22:56:26.160 | INFO     | __main__:main:181 - ========================================
+2025-05-19 22:56:26.161 | INFO     | __main__:main:182 - Root:   /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman
+2025-05-19 22:56:26.161 | INFO     | __main__:main:183 - Scripts:/Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/scripts/dw_create
+2025-05-19 22:56:26.161 | INFO     | __main__:main:184 - SQL:    /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create
+2025-05-19 22:56:26.161 | INFO     | __main__:main:185 - Input:  /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/data/prepared
+2025-05-19 22:56:26.161 | INFO     | __main__:main:186 - Output: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/dw/smart_sales.sqlite
+2025-05-19 22:56:26.161 | INFO     | __main__:create_dw:59 - Creating data warehouse using SQLite...
+2025-05-19 22:56:26.163 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/00_drop_all_tables.sql
+2025-05-19 22:56:26.163 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/10_create_customers.sql
+2025-05-19 22:56:26.164 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/20_create_products.sql
+2025-05-19 22:56:26.165 | INFO     | __main__:run_sql_file:49 - RUN: /Users/katehuntsman/Documents/Business Intelligence/smart-store-huntsman/sql/dw_create/90_create_sales.sql
+2025-05-19 22:56:26.165 | INFO     | __main__:create_dw:75 - Data warehouse schema created successfully.
+2025-05-19 22:56:26.165 | INFO     | __main__:populate_dw:88 - Populating SQLite data warehouse from prepared CSVs...
+2025-05-19 22:56:26.169 | INFO     | __main__:populate_dw:110 - Inserted 200 rows into customers table.
+2025-05-19 22:56:26.171 | INFO     | __main__:populate_dw:132 - Inserted 100 rows into products table.
+2025-05-19 22:56:26.177 | INFO     | __main__:populate_dw:167 - Inserted 2000 rows into sales table.
+2025-05-19 22:56:26.177 | INFO     | __main__:populate_dw:169 - All tables populated successfully.
+2025-05-19 22:56:26.177 | INFO     | __main__:main:189 - ========================================
+2025-05-19 22:56:26.177 | INFO     | __main__:main:190 - Finished: create_dw_sqlite.py
+2025-05-19 22:56:26.177 | INFO     | __main__:main:191 - ========================================

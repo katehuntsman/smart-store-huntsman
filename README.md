@@ -50,3 +50,13 @@ source .venv/bin/activate
 ```
 python3  -m unittest tests/test_data_scrubber.py
 ```
+
+### ETL
+```
+python3 scripts/etl_to_dw.py
+```
+
+### SQLite
+```
+python3 scripts/dw_create/create_dw_sqlite.py
+```
