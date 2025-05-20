@@ -10,18 +10,47 @@ source .venv/bin/activate
 ```
 smart-store-huntsman/   
 │
+├── archive/              
+│   └──data_prep.py 
+
 ├── data/                
 │   ├── raw/   
        └──customers_data.csv
        └──products_data.csv
-       └──sales_data.csv                    
+       └──sales_data.csv    
+
+├── dw/                
+│   └──smart_sales.sqlite    
+
+├── images/                
+│   └──customers_table.png            
+    └──products_table.png    
+    └──sales_table.png
+
 │
 ├── scripts/   
     ├──data_preparation/
         └──prepare_customer.py
         └──prepare_products.py
         └──prepare_sales.py
-                        
+    ├──data_cleaning/
+        └──data_scrubber.py
+        └──run_cleaning.py
+    ├──dw_create/
+        └──create_dw_sqlite.py
+        └──etl_to_dw.py
+
+├── sql/dw_create/   
+    └──00_drop_all_tables.sql
+    └──10_create_customers.sql
+    └──20_create_products.sql
+    └──90_create_sales.sql 
+    └──91_create_sales.sql 
+
+├── tests/
+    └──test_data_prep.py
+    └──test_data_scrubber.py
+        
 │
 ├── utils/                     
 │   └── logger.py             
