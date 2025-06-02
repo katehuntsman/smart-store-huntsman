@@ -26,6 +26,16 @@ smart-store-huntsman/
 │   └──customers_table.png            
     └──products_table.png    
     └──sales_table.png
+    └──spark_sql.png
+    └──query_and_aggregate_data.png
+    └──slice_dice_drill_down.png
+    └──Sales_trends_by_month_and_year.png
+    └──Top_customers_by_total_spent.png
+
+│
+├── lib/   
+    └──reporting.ipynb
+    └──sqlite-jdbc-3.49.0.0.jar
 
 │
 ├── scripts/   
@@ -148,3 +158,18 @@ Raw CSV files are cleaned, normalized, and renamed to match schema column names 
 
 ### Sales Table Sample Data
 ![Sales Table](images/sales_table.png)
+
+### Spark SQL Schema
+![Power BI Model View](images/spark_sql.png) 
+*Shows table relationships and key join columns.*
+
+### Query Results
+![Query Results](images/query_and_aggregate_data.png)   
+![Query Results](images/slice_dice_drill_down.png)   
+*Displays outputs of sales grouping and drilldown aggregations.*
+
+### Top Customers by Total Spent (Bar Chart)
+![Top Customers Bar Chart](images/top_customers_by_total_spent.png)
+
+### Sales Trends by Month and Year (Line Chart)
+![Sales Trends Line Chart](images/Sales_trends_by_month_and_year.png)
