@@ -264,7 +264,7 @@ seaborn
 # Streaming data processing framework (~200-250 MB)
 # Python compatibility varies by Spark version. Check the official documentation.
 # Currently requires Python <3.12, e.g. 3.11
-# pyspark<4.0.0
+pyspark<4.0.0
 
 # Alternative lightweight parallel computing framework
 # dask  
