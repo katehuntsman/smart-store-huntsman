@@ -185,16 +185,16 @@ Raw CSV files are cleaned, normalized, and renamed to match schema column names 
 
 ### Screenshots
 #### Spark SQL Schema
-![Power BI Model View](images/spark_sql.png) 
+![Power BI Model View](images/sparksql.png) 
 *Shows table relationships and key join columns.*
 
 #### Query Results
-![Query Results](images/query_and_aggregate_data.png)   
-![Query Results](images/slice_dice_drill_down.png)   
+![Query Results](images/query_aggregate.png)   
+![Query Results](images/slice_dice_drill.png)   
 *Displays outputs of sales grouping and drilldown aggregations.*
 
 #### Top Customers by Total Spent (Bar Chart)
-![Top Customers Bar Chart](images/top_customers_by_total_spent.png)
+![Top Customers Bar Chart](images/top_customers.png)
 
 #### Sales Trends by Month and Year (Line Chart)
-![Sales Trends Line Chart](images/Sales_trends_by_month_and_year.png)
+![Sales Trends Line Chart](images/sales_trends.png)
