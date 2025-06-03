@@ -36,6 +36,7 @@ smart-store-huntsman/
 ├── lib/   
     └──reporting.ipynb
     └──sqlite-jdbc-3.49.0.0.jar
+    └──holiday_sales_olap.ipynb
 
 │
 ├── scripts/   
@@ -160,7 +161,7 @@ Raw CSV files are cleaned, normalized, and renamed to match schema column names 
 ![Sales Table](images/sales_table.png)
 
 
-## Project 5 Details
+# Project 5 Details
 ### SQL Queries and Reports Description
 1. **Sales Filtering (Slicing):**  
    Filtered sales data to include transactions from 2023 onward to focus on recent sales trends.
@@ -198,3 +199,51 @@ Raw CSV files are cleaned, normalized, and renamed to match schema column names 
 
 #### Sales Trends by Month and Year (Line Chart)
 ![Sales Trends Line Chart](images/sales_trends.png)
+
+# Project 6 Details
+### Section 1. The Business Goal
+Identify monthly sales trends by product category for 2025 and analyze sales distribution across stores to optimize inventory allocation, enabling better stock management and increased sales efficiency.
+
+### Section 2. Data Source
+- Source: Prepared CSV dataset (`sales_data.csv`) and product details (`products_data.csv`).  
+- Columns used:  
+  - `sales_data.csv`: `sale_date`, `sale_amount`, `product_category`, `store_id`  
+  - `products_data.csv`: `ProductID`, `Category` (joined to sales data)
+
+### Section 3. Tools
+- PySpark for scalable data processing and OLAP operations  
+- Pandas for local data manipulation and validation  
+- Matplotlib and Seaborn for data visualization  
+- SQLite for data warehouse storage (if applicable)
+
+### Section 4. Workflow & Logic
+- Dimensions: `Product Category`, `Year`, `Month`, `Store ID`  
+- Measures: Sum of `Sales Amount`  
+- Operations:  
+  - Slice sales for year 2025  
+  - Dice sales by product category and store  
+  - Drill down from Year → Month → Day for time analysis
+
+### Section 5. Results
+- Line chart showed seasonal sales peaks in Q4 for Electronics and Apparel  
+- Heatmap revealed which stores contributed most to category sales  
+- Insights helped identify underperforming stores and high-demand months
+
+### Section 6. Suggested Business Action 
+- Allocate more inventory to Electronics in Q4 at top-performing stores  
+- Investigate low sales in specific stores for Apparel and adjust marketing efforts
+
+### Section 7. Challenges
+- Missing or inconsistent product categories resolved by joining with the product data table   
+- Ensuring date fields were correctly parsed and consistent
+
+### Running Code
+```
+source .venv/bin/activate
+python3 scripts/OLAP/sales_olap.ipynb
+python3 scripts/OLAP/sales_olap_analysis.py
+```
+
+### Screenshots 
+![Sales Distribution Heatmap](images/sales_distribution.png)
+![Monthly Sales Trends by Product Category](images/product_sales_trends.png)
