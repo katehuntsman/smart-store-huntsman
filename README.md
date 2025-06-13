@@ -202,7 +202,7 @@ Raw CSV files are cleaned, normalized, and renamed to match schema column names 
 
 # Project 6 Details
 ### Section 1. The Business Goal
-Identify monthly sales trends by product category for 2025 and analyze sales distribution across stores to optimize inventory allocation, enabling better stock management and increased sales efficiency.
+Identify sales trends by product category for May 4th, 2025 and analyze sales distribution across stores to optimize inventory allocation, enabling better stock management and increased sales efficiency.
 
 ### Section 2. Data Source
 - Source: Prepared CSV dataset (`sales_data.csv`) and product details (`products_data.csv`).  
@@ -247,3 +247,51 @@ python3 scripts/OLAP/sales_olap_analysis.py
 ### Screenshots 
 ![Sales Distribution Heatmap](images/sales_distribution.png)
 ![Monthly Sales Trends by Product Category](images/product_sales_trends.png)
+
+# Project 7 Details
+## Section 1. The Business Goal  
+To analyze customer spending behavior on May 4, 2025, by product category, customer segment, and region. The goal is to uncover high-performing segments and categories to support future campaign targeting and inventory decisions.
+
+## Section 2. Data Source  
+The data comes from the internal `smart_sales` system and includes three datasets:  
+- `sales_df`: Transactions with product/customer IDs, dates, and sale amounts.  
+- `products_df`: Product details including category.  
+- `customers_df`: Customer demographics and segments.
+
+## Section 3. Tools Used  
+- **Python 3.9**  
+- **Pandas** for data cleaning and transformation  
+- **Seaborn / Matplotlib** for visualization  
+- **Jupyter Notebook** for interactive BI reporting
+
+## Section 4. Workflow & Logic  
+1. **Clean and rename** columns for consistency.  
+2. **Filter sales** to May 4, 2025.  
+3. **Merge** datasets to include product and customer context.  
+4. **Aggregate sales** by customer segment & region across product categories.  
+5. **Visualize** sales using heatmaps to support slicing & dicing analysis.
+
+## Section 5. Results (Narrative + Visualizations)  
+- **Customer Segment vs Product Category** heatmap shows which customer groups spent the most per product type.  
+- **Region vs Product Category** heatmap highlights regional preferences and total sales.  
+
+These patterns reveal which products are resonating with specific segments and regions on that day.
+
+## Section 6. Suggested Business Action  
+- **Double down on high-performing categories** in specific customer segments or regions (e.g., promote top categories via targeted emails).  
+- **Consider inventory shifts** to align with May 4th demand spikes for key segments.  
+- **Plan similar campaigns** during periods with similar patterns.
+
+## Section 7. Challenges  
+- Only one day of data—trends may not generalize.  
+- Missing or malformed sale dates required filtering with care.  
+- Merging required standardized column names.
+
+## Section 8. Ethical Considerations  
+- Ensure regional and segment-based decisions don't lead to discrimination or exclusion.  
+- Be transparent in marketing how segments are selected.  
+- Avoid over-targeting that could reduce customer trust.
+
+### Screenshots 
+![Customer Segment & Product Category Heatmap](images/region_product_category.png)
+![Region & Product Category Heatmap](images/customer_segment_product_category.png)
